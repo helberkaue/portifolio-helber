@@ -141,7 +141,7 @@ body{
 }
 @media  (max-width:1250px) {
     .cabecalho{
-        padding: 10%;
+        padding: 10%;   
     }
     .cabecalho__nav{
         width: auto;
@@ -160,8 +160,8 @@ body{
     .imagemKaue{
         width: 70%;
     }
-
 }
+
 @media  (max-width:450px) {
     .cabecalho__nav_link{
         font-size: 1rem;
@@ -181,7 +181,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 100px 0 200px;
-    gap: 130px;
+    gap: 8.125rem;
 
 }
 .video_vitta{
@@ -196,4 +196,32 @@ body{
 .ancora_github{
     text-decoration: none;
     color: var(--cor-secundaria);
+}
+@media (max-width:1450px ){
+    .div_orientacao{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px){
+    .corpo_projeto h1{
+        font-size: 1.5rem;
+    }
+    .corpo_projeto_section h3{
+        font-size: 0.9rem;
+    }
+    .video_vitta{
+        width: 80%;
+    }
+    .ancora_github{
+        font-size: 0.7rem ;
+    }
+}
+@media (max-width: 450px){
+    .corpo_projeto h1{
+        font-size: 1.2rem;
+    }
+    .corpo_projeto_section h3{
+        font-size: 0.7rem;
+    }
 }
