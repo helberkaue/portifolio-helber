@@ -171,3 +171,29 @@ body{
     }
     
 }
+
+.div_orientacao{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+.corpo_projeto{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 200px;
+    gap: 130px;
+
+}
+.video_vitta{
+    border-radius: 20px;    
+}
+.corpo_projeto_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.ancora_github{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
